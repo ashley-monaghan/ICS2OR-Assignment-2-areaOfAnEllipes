@@ -31,11 +31,42 @@
         </div>
       </header>
       <main class="mdl-layout__content">
+        <div>
+          <h2>Formula:</h2>
+          <h3>Area= π x (a x b)</h3>
+        </div>
         <table>
           <tr>
             <th>
-              <h2>Formula:</h2>
-              <h3>Area= π x (a x b)</h3>
+              <!-- Simple Textfield -->
+              <form action="#">
+                  <p>A</p>
+                <div class="mdl-textfield mdl-js-textfield">
+                  <input
+                    class="mdl-textfield__input"
+                    type="text"
+                    pattern="-?[0-9]*(\.[0-9]+)?"
+                    id="a-of-ellipse"
+                  />
+                  <label class="mdl-textfield__label" for="a-of-ellipse">a ...</label>
+                  <span class="mdl-textfield__error">Input is not a number!</span>
+                </div>
+              </form>
+              <!-- Numeric Textfield -->
+              <form action="#">
+                <p>B</p>
+                <div class="mdl-textfield mdl-js-textfield">
+                  <input
+                    class="mdl-textfield__input"
+                    type="text"
+                    pattern="-?[0-9]*(\.[0-9]+)?"
+                    id="b-of-ellipse"
+                  />
+                  <label class="mdl-textfield__label" for="b-of-ellipse">b ...</label>
+                  <span class="mdl-textfield__error">Input is not a number!</span>
+                </div>
+              </form>
+              <br />
             </th>
             <th>
               <br />
@@ -49,35 +80,6 @@
             </th>
           </tr>
         </table>
-        <!-- Simple Textfield -->
-        <form action="#">
-          <p>A</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="a-of-ellipse"
-            />
-            <label class="mdl-textfield__label" for="a-of-ellipse">a ...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-        </form>
-        <!-- Numeric Textfield -->
-        <form action="#">
-          <p>B</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="b-of-ellipse"
-            />
-            <label class="mdl-textfield__label" for="b-of-ellipse">b ...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-        </form>
-        <br />
         <!-- Raised button with ripple -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
