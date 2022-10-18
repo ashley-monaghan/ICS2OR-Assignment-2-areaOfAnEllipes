@@ -41,3 +41,9 @@ h3 {
   color: #fafafa;
   font-family: Arial, sans-serif;
 }
+
+.ellipse-picture {
+  right:0%;
+  width: 60px;
+  height: auto;
+}
