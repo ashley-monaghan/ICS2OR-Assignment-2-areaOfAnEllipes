@@ -35,11 +35,13 @@ p {
 h2 {
   color: #fafafa;
   font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 h3 {
   color: #fafafa;
   font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 .ellipse-picture {
