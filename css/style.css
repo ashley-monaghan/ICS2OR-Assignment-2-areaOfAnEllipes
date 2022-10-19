@@ -39,6 +39,7 @@ h3 {
 }
 
 .ellipse-picture {
+  position: absolute;
   right: 0%;
   width: 60px;
   height: auto;
